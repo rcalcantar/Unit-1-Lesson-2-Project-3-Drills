@@ -1,0 +1,10 @@
+SELECT
+	trip_id,
+	duration
+FROM
+	trips
+WHERE
+	bike_id = 27 AND
+	duration > 500
+ORDER BY duration DESC;
+	
